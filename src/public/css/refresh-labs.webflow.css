@@ -370,6 +370,7 @@
 .lightbox-link {
   position: static;
   width: 100%;
+  cursor: pointer;
 }
 
 .image-3 {
@@ -394,6 +395,10 @@
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+}
+
+.block-project-image.felidae-link {
+  cursor: pointer;
 }
 
 .project-block {
@@ -574,6 +579,22 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.text-block {
+  font-weight: 700;
+}
+
+.success-message {
+  background-color: transparent;
+}
+
+.text-block-2 {
+  color: red;
+}
+
+.error-message {
+  background-color: transparent;
 }
 
 @media screen and (max-width: 991px) {
